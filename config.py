@@ -7,5 +7,5 @@ class Config:
     API_HASH = "YOUR API HASH"  
     TOKEN = os.environ.get("TOKEN", "YOUR BOT TOKEN")
     MONGO_URL = "YOUR MANGO DB URL"
-    START_PIC = "https://files.catbox.moe/z2ajhe.jpg"
+    START_PIC = "https://files.catbox.moe/g2leyq.jpg"
     SUDOERS = filters.user(["YOUR OWNER ID"])
