@@ -4,9 +4,12 @@ from pyrogram.types import InlineKeyboardButton as IKB, InlineKeyboardMarkup as 
 PM_TEXT = """**
 ╭───────────────────⦿
 │❍ ʜᴇʏ {}, 
-│❍ ɪ ᴀᴍ **{}**, ᴀ ʙᴏᴛ ᴛᴏ ʜᴀᴄᴋ ᴜsᴇʀ ᴀᴄᴄᴏᴜɴᴛ.
-│❍ ɪ sᴜᴘᴘᴏʀᴛ ʙᴏᴛʜ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ sᴛʀɪɴɢ sᴇssɪᴏɴ
-│❍ ᴄʟɪᴄᴋ ᴏɴ ʜᴀᴄᴋ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪ ᴄᴀɴ ᴅᴏ.
+│❍ ɪ ᴀᴍ **{}**, ᴀ ʙᴏᴛ ᴛᴏ
+│❍ ʜᴀᴄᴋ ᴜsᴇʀ ᴀᴄᴄᴏᴜɴᴛ.
+│❍ ɪ sᴜᴘᴘᴏʀᴛ ʙᴏᴛʜ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ
+│❍ ᴛᴇʟᴇᴛʜᴏɴ sᴛʀɪɴɢ sᴇssɪᴏɴ
+│❍ ᴄʟɪᴄᴋ ᴏɴ ʜᴀᴄᴋ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ
+│❍ ᴡʜᴀᴛ ɪ ᴄᴀɴ ᴅᴏ.
 ├───────────────────⦿
 │❍ ᴍᴀᴅᴇ ʙʏ... [↬꯭ᬃ꯭ ⃪꯭ ꯭⁢⁣⁤⁣⁣⁢⁣⁤⁢⁤⁣⁢⁤⁣⁤᪳᪳🇷꯭𝚰𝛅꯭꯭ʜ꯭֟፝፝֟ᴜ ꯭꯭༗꯭»꯭݅݅݅݅𓆪](https://t.me/Ur_rishu_143)
 ╰───────────────────⦿**
@@ -48,14 +51,10 @@ info = """
 
 PM_BUTTON = IKM([
     [IKB(" •─╼⃝𖠁 ʜ ᴀ ᴄ ᴋ 𖠁⃝╾─•", callback_data="hack_btn")],
-    [
-        InlineKeyboardButton("˹ υᴘᴅᴧᴛє ˼", url="https://t.me/Ur_rishu_143"),
-        InlineKeyboardButton("˹ sυᴘᴘσꝛᴛ ˼", url="https://t.me/ur_support07")
-    ],
-    [
-        InlineKeyboardButton("˹ ᴧʟʟ ᴧᴘɪ ˼", url="https://t.me/RishuApi"),
-        InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/Vip_robotz/4")
-    ]
+    [IKB("˹ υᴘᴅᴧᴛє ˼", url="https://t.me/Ur_rishu_143"),
+     IKB("˹ sυᴘᴘσꝛᴛ ˼", url="https://t.me/ur_support07")],
+    [IKB("˹ ᴧʟʟ ᴧᴘɪ ˼", url="https://t.me/RishuApi"),
+     IKB("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/Vip_robotz/4")]
 ])
 
 
