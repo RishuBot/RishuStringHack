@@ -13,6 +13,7 @@ async def _start(_, message):
     await add_served_user(user_id)
     await message.reply_photo(
        photo = START_PIC,
+       has_spoiler=True,
        caption = PM_TEXT.format(user, bot),
        reply_markup = PM_BUTTON) 
 
